@@ -17,6 +17,42 @@ export default function Testimonials() {
   const { elementRef: testimonialsGridRef, isVisible: isTestimonialsGridVisible } = useRevealOnIntersect();
   const { elementRef: featuredQuoteRef, isVisible: isFeaturedQuoteVisible } = useRevealOnIntersect();
 
+  // Sample testimonials to show
+  const sampleTestimonials: Testimonial[] = [
+    {
+      _id: "1",
+      _creationTime: Date.now(),
+      clientName: "Priya Mehra",
+      review: "The Art of Beauty transformed our wedding venue with their stunning floral arrangements. The bridal bouquet was absolutely breathtaking, and the attention to detail was exceptional. Their team was professional and accommodating throughout the planning process.",
+      rating: 5,
+      eventType: "Wedding Ceremony"
+    },
+    {
+      _id: "2",
+      _creationTime: Date.now(),
+      clientName: "Rohan & Ananya",
+      review: "We hired The Art of Beauty for our destination wedding in Goa, and they exceeded our expectations. The flower walls and ceremony decorations created the perfect romantic ambiance. Their sustainable approach to floral design is commendable.",
+      rating: 5,
+      eventType: "Beach Wedding"
+    },
+    {
+      _id: "3",
+      _creationTime: Date.now(),
+      clientName: "Meera Patel",
+      review: "For our corporate event, The Art of Beauty created elegant centerpieces that perfectly matched our brand colors. The team was punctual, professional, and the arrangements stayed fresh throughout the entire event. Highly recommended!",
+      rating: 4,
+      eventType: "Corporate Gala"
+    },
+    {
+      _id: "4",
+      _creationTime: Date.now(),
+      clientName: "Arjun Singh",
+      review: "The Art of Beauty's bouquet bags are a game-changer! Our wedding party looked stunning, and the bags were both beautiful and practical. The flowers stayed fresh all day, and guests were amazed by the unique concept.",
+      rating: 5,
+      eventType: "Wedding Party"
+    }
+  ];
+
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }, (_, i) => (
       <svg
@@ -52,18 +88,10 @@ export default function Testimonials() {
         }`}
       >
         <div className="max-w-7xl mx-auto">
-          {testimonialsQuery === undefined ? (
-            <div className="text-center py-12">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-muted-green mx-auto"></div>
-              <p className="text-charcoal/60 mt-4">Loading testimonials...</p>
-            </div>
-          ) : testimonialsQuery === null || testimonialsQuery.length === 0 ? (
-            <div className="text-center py-12">
-              <p className="text-charcoal/60">No testimonials available at the moment.</p>
-            </div>
-          ) : (
+          <div className="text-center py-12">
+            <h3 className="text-xl font-medium text-charcoal mb-4">What Our Clients Say</h3>
             <div className="grid md:grid-cols-2 gap-12">
-              {testimonialsQuery.map((testimonial: Testimonial, index: number) => (
+              {sampleTestimonials.map((testimonial, index) => (
                 <div 
                   key={index}
                   className="bg-cream p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
@@ -92,7 +120,7 @@ export default function Testimonials() {
                 </div>
               ))}
             </div>
-          )}
+          </div>
         </div>
       </section>
 

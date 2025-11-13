@@ -102,6 +102,13 @@ export default function Services() {
                   src={service.image} 
                   alt={service.title}
                   className="w-full h-64 object-cover"
+                  onError={(e) => {
+                    // Fallback to a working image if the current one fails to load
+                    const target = e.target as HTMLImageElement;
+                    if (target.src !== "https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/e2d910de-c8a6-4d0b-234f-01dcc452d200/public") {
+                      target.src = "https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/e2d910de-c8a6-4d0b-234f-01dcc452d200/public";
+                    }
+                  }}
                 />
                 <div className="p-8">
                   <h3 className="font-serif text-3xl font-medium text-charcoal mb-4">{service.title}</h3>
