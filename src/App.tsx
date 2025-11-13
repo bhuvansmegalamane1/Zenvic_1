@@ -32,7 +32,7 @@ const NotFound = () => (
         The page you're looking for doesn't exist or has been moved.
       </p>
       <a 
-        href="/" 
+        href="/Zenvic_1/" 
         className="bg-gradient-to-r from-[var(--accent-color)] to-[var(--accent2-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-full font-[var(--font-family-body)] text-lg font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300"
       >
         Return to Home
@@ -46,7 +46,7 @@ export default function App() {
   const [showWhatsAppPopup, setShowWhatsAppPopup] = useState(false);
 
   return (
-    <Router>
+    <Router basename="/Zenvic_1">
       <div className="min-h-screen bg-ivory overflow-x-hidden">
         <Header />
         <Suspense fallback={<LoadingFallback />}>
