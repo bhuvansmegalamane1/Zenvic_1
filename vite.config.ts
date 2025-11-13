@@ -15,5 +15,5 @@ export default defineConfig(({ mode }) => ({
   // Base path for GitHub Pages deployment
   // Change this to your repository name if deploying to GitHub Pages
   // For example, if your repo is github.com/username/my-repo, set base to "/my-repo/"
-  base: mode === "production" ? "/" : "/",
+  base: mode === "production" ? "/Zenvic_1/" : "/",
 }));

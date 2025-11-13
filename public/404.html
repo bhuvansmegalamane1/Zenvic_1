@@ -16,6 +16,12 @@
       var search = location.search;
       var hash = location.hash;
       
+      // Remove the base path for GitHub Pages
+      var basePath = '/Zenvic_1';
+      if (path.startsWith(basePath)) {
+        path = path.substring(basePath.length);
+      }
+      
       // Remove trailing slash if present
       if (path.endsWith('/') && path.length > 1) {
         path = path.slice(0, -1);
@@ -27,7 +33,7 @@
       var newHash = hash ? hash.replace(/^#/, '&') : '';
       
       // Redirect to the new url
-      var redirectUrl = '/?' + newPath.slice(1) + newQuery + newHash;
+      var redirectUrl = basePath + '/?' + newPath.slice(1) + newQuery + newHash;
       location.replace(redirectUrl);
     </script>
   </head>
