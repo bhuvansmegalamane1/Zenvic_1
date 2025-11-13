@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Art of Beauty - Creating Unforgettable Moments</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script takes the current url and converts the path and query
+      // string into just a query string, and then redirects the browser
+      // to the new url with only a query string and hash fragment,
+      // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
+      // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
+      var path = location.pathname;
+      var search = location.search;
+      var hash = location.hash;
+      
+      // Remove trailing slash if present
+      if (path.endsWith('/') && path.length > 1) {
+        path = path.slice(0, -1);
+      }
+      
+      // Convert the url to a query string format
+      var newPath = path.replace(/\/$/, '') || '/';
+      var newQuery = search ? search.replace(/^\?/, '&') : '';
+      var newHash = hash ? hash.replace(/^#/, '&') : '';
+      
+      // Redirect to the new url
+      var redirectUrl = '/?' + newPath.slice(1) + newQuery + newHash;
+      location.replace(redirectUrl);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
