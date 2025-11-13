@@ -256,7 +256,7 @@ export default function Home() {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/Zenvic_1/7e9c3399-3cb4-4c77-8e51-15ff7c1ac1eb.jpg" 
+                src={`${import.meta.env.BASE_URL}7e9c3399-3cb4-4c77-8e51-15ff7c1ac1eb.jpg`} 
                 alt="Kraft paper flowers rose bouquet bag handbag"
                 className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
               />
@@ -280,7 +280,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
               <img 
-                src="/Zenvic_1/68da462249f25-bridal-bouquet-bag-294058265-16x9.webp" 
+                src={`${import.meta.env.BASE_URL}68da462249f25-bridal-bouquet-bag-294058265-16x9.webp`} 
                 alt="Bridal bouquet bag design"
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -294,7 +294,7 @@ export default function Home() {
             
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
               <img 
-                src="/Zenvic_1/bridal-purse-bouquet-idea.webp" 
+                src={`${import.meta.env.BASE_URL}bridal-purse-bouquet-idea.webp`} 
                 alt="Bridal purse bouquet idea"
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -308,7 +308,7 @@ export default function Home() {
             
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
               <img 
-                src="/Zenvic_1/close-up-flovers-wedding-arch-wedding-ceremony-decorated-cloth-flowers-green-grass-close-up-110855072.webp" 
+                src={`${import.meta.env.BASE_URL}close-up-flovers-wedding-arch-wedding-ceremony-decorated-cloth-flowers-green-grass-close-up-110855072.webp`} 
                 alt="Wedding ceremony decorated with cloth flowers"
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -322,7 +322,7 @@ export default function Home() {
             
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
               <img 
-                src="/Zenvic_1/fe63e57ec637cfbe211804934f7203b0.jpg" 
+                src={`${import.meta.env.BASE_URL}fe63e57ec637cfbe211804934f7203b0.jpg`} 
                 alt="Premium floral decor design"
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -336,7 +336,7 @@ export default function Home() {
             
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
               <img 
-                src="/Zenvic_1/il_fullxfull.6852910194_rmkw.webp" 
+                src={`${import.meta.env.BASE_URL}il_fullxfull.6852910194_rmkw.webp`} 
                 alt="Floral wedding decoration"
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -350,7 +350,7 @@ export default function Home() {
             
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
               <img 
-                src="/Zenvic_1/il_fullxfull.7260398841_6atu.webp" 
+                src={`${import.meta.env.BASE_URL}il_fullxfull.7260398841_6atu.webp`} 
                 alt="Elegant bouquet arrangement"
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -585,7 +585,7 @@ export default function Home() {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/Zenvic_1/Screenshot 2025-11-11 225532.png" 
+                src={`${import.meta.env.BASE_URL}Screenshot 2025-11-11 225532.png`} 
                 alt="Kraft paper flowers rose bouquet bag handbag"
                 className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
               />
