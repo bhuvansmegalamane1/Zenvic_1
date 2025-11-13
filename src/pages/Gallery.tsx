@@ -12,63 +12,63 @@ export default function Gallery() {
       title: "Vintage Elegance",
       description: "Rustic wedding table décor",
       category: "Weddings",
-      url: "/Screenshot 2025-11-11 183251.png",
+      url: "/Zenvic_1/Screenshot 2025-11-11 183251.png",
       alt: "Rustic wedding table setting with vintage charm and natural elements"
     },
     {
       title: "Romantic Glow",
       description: "Candlelit table arrangements",
       category: "Floral Design",
-      url: "/Singlerose_1080x.webp",
+      url: "/Zenvic_1/Singlerose_1080x.webp",
       alt: "Intimate candlelit dinner table with warm ambient lighting"
     },
     {
       title: "Garden Dreams",
       description: "Outdoor reception elegance",
       category: "Weddings",
-      url: "/images.jpeg",
+      url: "/Zenvic_1/images.jpeg",
       alt: "Beautiful outdoor garden reception with natural floral arrangements"
     },
     {
       title: "Modern Sophistication",
       description: "Corporate event styling",
       category: "Corporate",
-      url: "/images (3).jpeg",
+      url: "/Zenvic_1/images (3).jpeg",
       alt: "Sleek modern corporate event setup with contemporary design elements"
     },
     {
       title: "Champagne Moments",
       description: "Celebration centerpieces",
       category: "Floral Design",
-      url: "/images (4).jpeg",
+      url: "/Zenvic_1/images (4).jpeg",
       alt: "Elegant champagne celebration with luxurious centerpiece arrangements"
     },
     {
       title: "Luxury Interiors",
       description: "Premium home arrangements",
       category: "Venue Styling",
-      url: "/images (5).jpeg",
+      url: "/Zenvic_1/images (5).jpeg",
       alt: "Sophisticated interior floral arrangements for luxury home events"
     },
     {
       title: "Ceremony Arch",
       description: "Wedding ceremony backdrop",
       category: "Weddings",
-      url: "/close-up-flovers-wedding-arch-wedding-ceremony-decorated-cloth-flowers-green-grass-close-up-110855072.webp",
+      url: "/Zenvic_1/close-up-flovers-wedding-arch-wedding-ceremony-decorated-cloth-flowers-green-grass-close-up-110855072.webp",
       alt: "Elegant wedding arch with romantic floral arrangements"
     },
     {
       title: "Neutral Elegance",
       description: "Sophisticated tablescape",
       category: "Venue Styling",
-      url: "/7e9c3399-3cb4-4c77-8e51-15ff7c1ac1eb.jpg",
+      url: "/Zenvic_1/7e9c3399-3cb4-4c77-8e51-15ff7c1ac1eb.jpg",
       alt: "Elegant neutral wedding tablescape with sophisticated arrangements"
     },
     {
       title: "Boho Summer",
       description: "Modern boho event styling",
       category: "Weddings",
-      url: "/bridal-purse-bouquet-idea.webp",
+      url: "/Zenvic_1/bridal-purse-bouquet-idea.webp",
       alt: "Modern boho summer event styling with natural textures"
     }
   ];
